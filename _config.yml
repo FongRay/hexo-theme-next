@@ -331,13 +331,13 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family:
+    family: Hanzipen SC
     size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: Source Code Pro
     size:
 
 
@@ -625,7 +625,7 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: simple
+  style: modern
   icons: false
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
@@ -717,7 +717,7 @@ canvas_nest: false
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
 # three_waves
-three_waves: true
+three_waves: false
 # canvas_lines
 canvas_lines: false
 # canvas_sphere
