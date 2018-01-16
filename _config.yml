@@ -90,17 +90,17 @@ index_with_subtitle: false
 menu:
   home: / || home
   tags: /tags/ || tags
-  categories: /categories/ || th
+  #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
-  commonweal: /404/ || heartbeat
   about: /about/ || user
+  commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
+  badges: true
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -127,9 +127,11 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/FongRay || github
-  E-Mail: mailto:fray9166@gmail.com || envelope
+  Zhihu: https://www.zhihu.com/people/crazycoder/ || quora
   #Google: https://plus.google.com/yourname || google
-  #Twitter: https://twitter.com/yourname || twitter
+  Twitter: https://twitter.com/FongRay || twitter
+  Weibo: https://weibo.com/fr9166/ || weibo
+  E-Mail: mailto:fray9166@gmail.com || envelope
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -139,7 +141,7 @@ social:
 
 social_icons:
   enable: true
-  icons_only: false
+  icons_only: true
   transition: false
 
 # Follow me on GitHub banner in right-top corner.
@@ -196,7 +198,7 @@ sidebar:
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button.
   scrollpercent: true
@@ -364,12 +366,12 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 0dd86dc030c2af1e3ddfefe38f44d297
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: fangr-cc
   count: true
   lazyload: false
 
@@ -545,7 +547,7 @@ firestore:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -601,7 +603,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
