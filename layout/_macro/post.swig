@@ -283,7 +283,7 @@
           {% if post.photos.length % COLUMN_NUMBER > 0 %}</div>{% endif %}
         </div>
       {% endif %}
-
+      
       {% if is_index %}
         {% if post.description and theme.excerpt_description %}
           {{ post.description }}
@@ -323,7 +323,9 @@
         {% endif %}
       {% else %}
         {{ post.content }}
+        ≡ EOF ≡
       {% endif  %}
+      
     </div>
     {#####################}
     {### END POST BODY ###}
