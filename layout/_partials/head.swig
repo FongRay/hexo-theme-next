@@ -73,6 +73,7 @@
 {% endif %}
 
 {% include "./head/external-fonts.swig" %}
+<link href="./fonts/fonts.css" rel="stylesheet" type="text/css">
 
 {% set font_awesome_uri = url_for(theme.vendors._internal + '/font-awesome/css/font-awesome.min.css?v=4.6.2') %}
 {% if theme.vendors.fontawesome %}
