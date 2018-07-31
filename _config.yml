@@ -336,7 +336,7 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: false
-    family: Hanzipen SC
+    family: 
     size:
 
   # Font settings for <code> and code blocks.
