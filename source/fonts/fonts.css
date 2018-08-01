@@ -95,17 +95,6 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
-
-/* Hanzipen SC */
-@font-face{
-    font-family: 'Hanzipen SC';
-    font-weight: 200;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('/fonts/Hanzipen-SC.ttf') format('truetype');
-}
-
-
 /* Source Code Pro */
 @font-face{
   font-family: 'Source Code Pro';
