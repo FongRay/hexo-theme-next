@@ -154,11 +154,11 @@ social_icons:
 links_icon: link
 links_title: Links
 links_layout: block
-#links_layout: inline
+# links_layout: inline
 links:
   Json Editor: http://fangr.cc/jsoneditor/
   Raincal's Blog: https://raincal.com/
-  
+  Tao Xu: https://xta0.me/src/about/
 
 
 # Sidebar Avatar
