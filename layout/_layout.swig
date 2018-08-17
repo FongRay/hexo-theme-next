@@ -107,5 +107,7 @@
       s.parentNode.insertBefore(bp, s);
   })();
   </script>
+  <script src="https://fangr-cc-image.oss-cn-beijing.aliyuncs.com/18-8-17/audio.js"></script>
+  <script src="https://fangr-cc-image.oss-cn-beijing.aliyuncs.com/18-8-17/piano.js"></script>
 </body>
 </html>
