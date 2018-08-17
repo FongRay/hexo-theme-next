@@ -23,9 +23,9 @@ cache:
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  #small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
+  small: https://fangr-cc-image.oss-cn-beijing.aliyuncs.com/18-8-17/88651815.jpg
+  medium: https://fangr-cc-image.oss-cn-beijing.aliyuncs.com/18-8-17/74470845.jpg
+  apple_touch_icon: https://fangr-cc-image.oss-cn-beijing.aliyuncs.com/18-8-17/57823452.jpg
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
@@ -164,7 +164,7 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/avatar.png
+avatar: https://fangr-cc-image.oss-cn-beijing.aliyuncs.com/18-8-17/72929341.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -253,8 +253,8 @@ symbols_count_time:
 
 # Reward
 reward_comment: 予人玫瑰，手有余香
-wechatpay: /images/wechatpay.jpg
-alipay: /images/alipay.jpg
+wechatpay: https://fangr-cc-image.oss-cn-beijing.aliyuncs.com/18-8-17/12924763.jpg
+alipay: https://fangr-cc-image.oss-cn-beijing.aliyuncs.com/18-8-17/45603968.jpg
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
