@@ -1,11 +1,11 @@
-<div class="copyright">{#
+<hr>
+<div class="copyright">
+  &copy; <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright || config.author }} </span>
+{#
 #}{% set current = date(Date.now(), "YYYY") %}{#
-#}&copy; {% if theme.footer.since and theme.footer.since != current %}{{ theme.footer.since }} &mdash; {% endif %}{#
+#}{% if theme.footer.since and theme.footer.since != current %}{{ theme.footer.since }} - {% endif %}{#
 #}<span itemprop="copyrightYear">{{ current }}</span>
-  <span class="with-love">
-    <i class="fa fa-{{ theme.footer.icon }}"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright || config.author }}</span>
+All Rights Reserved
 
   {% if config.symbols_count_time.total_symbols %}
     <span class="post-meta-divider">|</span>
